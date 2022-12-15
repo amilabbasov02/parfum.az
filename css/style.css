@@ -9,15 +9,15 @@
     flex-wrap: wrap;
 }
 @font-face {
-    font-family: 'futura-500';
+    font-family: 'Futura-500';
     src: url(../font/Futura-Medium.otf);
 }
 @font-face {
-    font-family: 'futura-400';
+    font-family: 'Futura-400';
     src: url(../font/Futura-Regular.otf);
 }
 @font-face {
-    font-family: 'futura-300';
+    font-family: 'Futura-300';
     src: url(../font/Futura-Light.otf);
 }
 body{
@@ -62,8 +62,8 @@ header .row{
     max-width: 350px;
 }
 .slider-body{
-    font-family: 'Futura PT', sans-serif;
-    font-weight: 300;
+    font-family: 'Futura-300', sans-serif;
+    /* font-weight: 300; */
     font-size: 20px;
     line-height: 20px;
     color: #FCFCFC;
@@ -74,13 +74,13 @@ header .row{
     max-width: 138px;
     width: 138px;
     height: 47px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     font-feature-settings: 'liga' off;
     color: #FFC13F;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-400', sans-serif;
     display: flex;
     border: 1px solid #FFC13F;
     border-radius: 4px;
@@ -239,11 +239,11 @@ section{
 }
 .brend{
     margin: 0 15px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 18px;
     color: #FFD376;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-400', sans-serif;
 }
 .product-card-bottom .price span{
     font-weight: 496 !important;
@@ -331,11 +331,11 @@ section{
     margin-bottom: 12px;
 }
 .parfum-text{
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 16px;
     line-height: 20px;
     color: #FCFCFC;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-300', sans-serif;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     line-clamp: 2; 
@@ -395,11 +395,11 @@ section{
     padding-top: 5px;
 }
 .fume-text{
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 16px;
     line-height: 20px;
     color: #121212;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-300', sans-serif;
     padding: 0 15px;
 }
 .fume-bottom{
@@ -462,12 +462,12 @@ section{
     margin-bottom: 25px;
 }
 .box-text{
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 24px;
     line-height: 31px;
     text-align: center;
     color: #FCFCFC;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-400', sans-serif;
     margin-bottom: 32px;
 }
 .box-images{
@@ -609,12 +609,12 @@ section{
     margin-top: 35px;
 }
 .properties-text{
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     color: #414141;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-300', sans-serif;
     margin-top: 8px;
 }
 #ceo{
@@ -645,12 +645,12 @@ section{
     margin-bottom: 12px;
 }
 .ceo-body{
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 21px;
     color: #121212;
     margin-bottom: 30px;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-400', sans-serif;
 }
 .col-2{
     max-width: 15%;
@@ -663,19 +663,19 @@ footer{
     padding: 60px !important;
 }
 .footer-head{
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 18px;
     line-height: 26px;
     color: #FCFCFC;
     margin-bottom: 25px;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-500', sans-serif;
 }
 footer li a{
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 21px;
     color: #FCFCFC !important;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-400', sans-serif;
 }
 footer li{
     margin-bottom: 12px;
@@ -699,23 +699,23 @@ footer .col-4 form{
 footer .col-4 input{
     background: #FCFCFC;
     border-radius: 4px 0px 0px 4px;
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 15px;
     line-height: 19px;
     text-align: center;
     color: #121212;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-300', sans-serif;
     padding: 10px;
 }
 footer .col-4 button{
     background: #FFC13F;
     border-radius: 0px 4px 4px 0px;
-    font-weight: 450;
+    /* font-weight: 450; */
     font-size: 14px;
     line-height: 18px;
     text-align: center;
     color: #121212;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-500', sans-serif;
     cursor: pointer;
     border: 1px solid #FFC13F;
     transition: 0.5s all ease-in-out;
@@ -812,13 +812,13 @@ footer .col-4 button:hover{
     line-height: 20px;
     text-align: center;
     color: #FCFCFC;
-    font-weight: 400;
-    font-family: 'Futura PT', sans-serif;
+    /* font-weight: 400; */
+    font-family: 'Futura-300', sans-serif;
     margin-top: 40px;
 }
 .swiper-slide-active .kataloq-head{
-    font-family: 'Futura PT', sans-serif;
-    font-weight: 500;
+    font-family: 'Futura-500', sans-serif;
+    /* font-weight: 500; */
 }
 .slider-1 .swiper-button-prev{
     transform: rotate(45deg);
@@ -981,11 +981,11 @@ footer .col-4 button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 450;
+    /* font-weight: 450; */
     font-size: 18px;
     line-height: 23px;
     color: #FCFCFC;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-500', sans-serif;
     margin-top: 40px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -1064,21 +1064,21 @@ footer .col-4 button:hover{
     top: 40px;
 }
 .ml{
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 14px;
     line-height: 18px;
     text-align: center;
     color: #6A6A6A;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-300', sans-serif;
     margin-bottom: 8px;
 }
 .hecm-price{
-    font-weight: 450;
+    /* font-weight: 450; */
     font-size: 16px;
     line-height: 21px;
     text-align: center;
     color: #6A6A6A;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-500', sans-serif;
 }
 .thumb-head-1{
     font-weight: 496;
@@ -1089,12 +1089,12 @@ footer .col-4 button:hover{
 }
 .select-1 a,
 .select-2 a{
-    font-weight: 450;
+    /* font-weight: 450; */
     font-size: 16px;
     line-height: 130%;
     text-decoration-line: underline;
     color: #959595;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-500', sans-serif;
     margin-right: 40px;
 }
 .select-1 a.active{
@@ -1188,11 +1188,11 @@ footer .col-4 button:hover{
     border-radius: 4px;
     width: 174px;
     height: 32px;
-    font-weight: 450;
+    /* font-weight: 450; */
     font-size: 14px;
     line-height: 18px;
     color: #121212;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-500', sans-serif;
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.5s all ease-in-out;
@@ -1205,11 +1205,11 @@ footer .col-4 button:hover{
     width: 69px !important;
     height: 32px !important;
     margin-right: 20px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 12px;
     line-height: 15px;
     color: #C8C8C8;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-400', sans-serif;
     padding: 0 5px !important;
     position: relative;
     border: 1px solid #414141 !important; 
@@ -1252,12 +1252,12 @@ footer .col-4 button:hover{
     margin-top: 20px;
 }
 .body-text{
-    font-weight: 300;
+    /* font-weight: 300; */
     font-size: 16px;
     line-height: 130%;
     text-align: center;
     color: #121212;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-300', sans-serif;
     margin-top: 20px;
 }
 .gift-header{
@@ -1286,11 +1286,11 @@ footer .col-4 button:hover{
     margin: 25px 0 0 0 !important;
     border: 1px solid #414141 !important;
     border-radius: 4px;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: 18px;
     color: #C8C8C8;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-400', sans-serif;
 }
 .box-select .list{
     width: 100%;
@@ -1360,13 +1360,13 @@ footer .col-4 button:hover{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    font-weight: 450;
+    /* font-weight: 450; */
     font-size: 18px;
     line-height: 23px;
     display: flex;
     align-items: center;
     color: #414141;
-    font-family: 'Futura PT', sans-serif;
+    font-family: 'Futura-500', sans-serif;
 }
 .product-size span{
     margin-left: 10px;
